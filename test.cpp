@@ -12,7 +12,7 @@ void reverseChainOne(char * array, int from, int to) {
 
 void reverseChain(char * array, int n) {
 	reverseChainOne(array, 0, n);
-	reverseChainOne(array, n + 1, strlen(array));
+	reverseChainOne(array, n + 1, strlen(array)-1);
 }
 
 void main()
